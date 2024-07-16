@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.table {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    border-collapse: collapse;
+    background: radial-gradient(rgb(104, 16, 104),pink,rgb(14, 6, 14));
+    /* border-radius: 30px; */
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  /* .table:hover {
+    background: radial-gradient(rgb(113, 195, 237),blueviolet,rgb(113, 195, 237));
+  } */
+  .table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-style: italic;
+  }
+  .table th {
+    background-color: rgb(178, 207, 91);
+  }
+  .table button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: bisque;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-style: italic;
+  }
+  /* .table button:hover{
+    background-color: azure;
+  } */
+  #studentTable{
+    display: none;
+  }
+  #addTable{
+    background-color: azure;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  /* #addTable:hover{
+    background-color: peachpuff;
+  } */
+  #addButton{
+    background-color: azure;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+  }
+  /* #addButton:hover{
+    background-color: peachpuff;
+  } */
